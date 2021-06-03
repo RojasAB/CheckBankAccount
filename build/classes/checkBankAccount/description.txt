@@ -1,0 +1,164 @@
+Write a Java class declaration for the following Checkbook. Include in the private part a data representation for the name of depositor, date of transaction and current balance. All monetary amounts are to be represented as floating point numbers.
+
+
+Write your code in onlinegdb and share your link here
+
+Operations:
+
+·        open –interactively prompts for an initial amount for opening a checking account
+
+·        writeCheck –interactivley prompts for an amount to be issued on the check
+
+·        deposit – interactively prompts for an amount to be deposited in the checking account
+
+·        display – displays the current balance
+
+·        update – updates the data in each depositor information
+
+
+
+Create a client that does the following:
+
+·        creates a Checkbook object and invokes the open method at the start of the operation
+
+·        allows the user to select type of transaction (WriteCheck, Deposit, Quit)
+
+·        Use all the methods in the class and displays the current balance for every transaction
+
+
+
+Sample Run:
+
+          Opening a checking account: 
+
+          Name of depositor:                  Sally Saclauso
+
+          Date of transaction:                  01/10/2021 (gets the current date)
+
+          Starting Balance:                      1000.00
+
+          Current balance:                      1000.00
+
+
+
+          Operations
+
+1-  Write Check
+
+2-  Deposit amount
+
+3-  Update Information
+
+4-  Balance Inquiry
+
+5-  Quit
+
+Select Transaction:        1
+
+
+
+          Date of Transaction:                1/10/2021(gets the current date)
+
+          Amount:                                  500.00
+
+          Current Balance:                      500.00
+
+       
+
+Operations
+
+1-  Write Check
+
+2-  Deposit amount
+
+3-  Update Information
+
+4-  Balance Inquiry
+
+5-  Quit
+
+Select Transaction:        2
+
+
+
+       
+
+
+
+                Date of Transaction:                1/10/2021(gets the current date)
+
+          Amount:                                  500.00
+
+          Current Balance:                      1000.00
+
+             
+
+Operations
+
+1-  Write Check
+
+2-  Deposit amount
+
+3-  Update Information
+
+4-  Balance Inquiry
+
+5-  Quit
+
+Select Transaction:        3
+
+
+
+
+
+                Date of Transaction:                1/10/2021(gets the current date)
+
+          Update Name of depositor:      Sally May Saclauso
+
+          Current Balance:                      1000.00
+
+
+
+Operations
+
+1-  Write Check
+
+2-  Deposit amount
+
+3-  Update Information
+
+4-  Balance Inquiry
+
+5-  Quit
+
+Select Transaction:        4
+
+
+
+
+
+                Date of Transaction:      1/10/2021(gets the current date)
+
+          Name:                            Sally May Saclauso
+
+          Current Balance:            1000.00
+
+
+
+Operations
+
+1-  Write Check
+
+2-  Deposit amount
+
+3-  Update Information
+
+4-  Balance Inquiry
+
+5-  Quit
+
+Select Transaction:        5
+
+
+
+Thank you for transacting with us.
